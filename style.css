@@ -1,0 +1,117 @@
+/* GENERAL */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+  padding: 20px 10%;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #333;
+}
+
+.logo span {
+  color: #ff4f4f;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px
+}
+
+.hero {
+  background: palevioletred;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 10%;
+}
+
+.hero-text {
+  max-width: 450px;
+}
+
+.small-title {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ffcf6c;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  line-height: 55px;
+  margin: 10px 0;
+}
+
+.description {
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: #ff7c7c;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+/* HERO IMAGE */
+.hero-img img {
+  width: 100%;
+  width: 600px;
+  height: auto;
+}
+
+
+/* SERVICES SECTION */
+.services {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 5%;
+  background: #f7dedf;
+}
+
+.service-box {
+  width: 32%;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.service-box .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.service-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-box p {
+  font-size: 14px;
+  color: #555;
+}
